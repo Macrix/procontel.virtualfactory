@@ -1,32 +1,46 @@
-# Prerequisites
-*.d
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
 
-# Precompiled Headers
-*.gch
-*.pch
+# dependencies
+/node_modules
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
 
-# Fortran module files
-*.mod
-*.smod
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
-# Executables
-*.exe
-*.out
-*.app
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
