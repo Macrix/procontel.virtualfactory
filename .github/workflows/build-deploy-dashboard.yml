@@ -39,7 +39,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: production-files
-        path: ./${{env.working-directory}}/build
+        path: ${{env.working-directory}}/build
   
   deploy:
     name: Deploy
