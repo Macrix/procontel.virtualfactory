@@ -14,9 +14,6 @@ type State = {
 };
 
 export class Dots extends React.Component<Props | undefined, State> {
-  constructor(props?: Props, context?: any) {
-    super(props, context);
-  }
 
   render() {
     const { x, y, showTooltip, hideTooltip, data } = this.props;
