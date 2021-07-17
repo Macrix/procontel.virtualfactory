@@ -41,7 +41,7 @@ export class Dots extends React.Component<Props| undefined, State> {
         cy={y(d.count)}
         fill="#7dc7f4"
         stroke="#313131"
-        strokeWidth="5px"
+        strokeWidth="1px"
         key={i}
         onMouseOver={showTooltip}
         onMouseOut={hideTooltip}

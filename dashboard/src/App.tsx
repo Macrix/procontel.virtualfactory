@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { NeedsDashboard } from './components';
+import { SensorsDashboard } from './components';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     // </div>
     <div className="main">
     <div className="content">
-    <NeedsDashboard />
+    <SensorsDashboard />
     </div>
   </div>
   );
