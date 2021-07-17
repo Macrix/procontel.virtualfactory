@@ -15,6 +15,7 @@ export const SensorsDashboard: React.FC = props => {
   {
     "CustomerName": "ProconTEL team"
   }`);
+  
   const temperaturesRef = React.useRef(temparatures);
   const setTemperatures = (data: SparklineModel[]) => {
     temperaturesRef.current = data;
