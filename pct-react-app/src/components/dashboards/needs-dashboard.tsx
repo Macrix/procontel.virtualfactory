@@ -164,7 +164,7 @@ React.useEffect(() => {
     const renderWidgets = (widgets: any) => {
         return <div className="column-stretch">
           <div className="widget column-stretch" id="top-line-chart" ref={sparkline} >
-            <h3 className="title"> Observabletimeline</h3>
+            <h3 className="title"> Sensor</h3>
               <Sparkline
                         chartId="sparkline_1"
                         width={sparklineSize.width}
