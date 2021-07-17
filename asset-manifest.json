@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/procontel.virtualfactory/static/css/main.4062e3e2.chunk.css",
+    "main.js": "/procontel.virtualfactory/static/js/main.92a6da5a.chunk.js",
+    "main.js.map": "/procontel.virtualfactory/static/js/main.92a6da5a.chunk.js.map",
+    "runtime-main.js": "/procontel.virtualfactory/static/js/runtime-main.df6a9f34.js",
+    "runtime-main.js.map": "/procontel.virtualfactory/static/js/runtime-main.df6a9f34.js.map",
+    "static/js/2.a01e15fc.chunk.js": "/procontel.virtualfactory/static/js/2.a01e15fc.chunk.js",
+    "static/js/2.a01e15fc.chunk.js.map": "/procontel.virtualfactory/static/js/2.a01e15fc.chunk.js.map",
+    "index.html": "/procontel.virtualfactory/index.html",
+    "static/css/main.4062e3e2.chunk.css.map": "/procontel.virtualfactory/static/css/main.4062e3e2.chunk.css.map",
+    "static/js/2.a01e15fc.chunk.js.LICENSE.txt": "/procontel.virtualfactory/static/js/2.a01e15fc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df6a9f34.js",
+    "static/js/2.a01e15fc.chunk.js",
+    "static/css/main.4062e3e2.chunk.css",
+    "static/js/main.92a6da5a.chunk.js"
+  ]
+}
