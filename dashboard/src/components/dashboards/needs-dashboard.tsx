@@ -1,9 +1,10 @@
 import  React, { useRef, useState }  from 'react';
 import { useFormInput } from '../../hooks';
 import { BarChart, DonutChart, ProgressChart, Sparkline, SparklineModel } from '../controls/d3';
-import './style.css';
+
 import { EndpointConnectionFactory, IEndpointConnection } from '@macrix/pct-cmd';
 import { HubConnectionState } from '@microsoft/signalr';
+import './style.css';
 
 
 type Props = {
