@@ -20,7 +20,7 @@ export class Tooltip extends React.Component<Props, State> {
       transformArrow = "";
 
     let position = tooltip.pos;
-    if (position.x === NaN) {
+    if (isNaN(position.x)) {
       console.info("Dupa");
     }
     x = position.x;
