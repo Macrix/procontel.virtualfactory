@@ -25,6 +25,7 @@ jobs:
     
     - name: Install NPM packages
       run: npm ci
+      working-directory: ${{env.working-directory}}
     
     - name: Build project
       run: npm run build
