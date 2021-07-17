@@ -25,7 +25,7 @@ export class Tooltip extends React.Component<Props, State> {
     }
     x = position.x;
     y = position.y;
-
+ 
     if (y > height + 102) {
       transform =
         "translate(" + (x - width / 2) + "," + (y - height - 20) + ")";
