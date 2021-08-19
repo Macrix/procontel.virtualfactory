@@ -30,7 +30,7 @@ export class Dots extends React.Component<Props | undefined, State> {
       return (
         <circle
           className="dot"
-          r="7"
+          r="5"
           cx={x(d.date)}
           cy={y(d.count)}
           fill="#7dc7f4"

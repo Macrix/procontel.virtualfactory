@@ -1,4 +1,5 @@
 import { HubConnectionState } from "@microsoft/signalr";
+import * as d3 from "d3";
 import React, { useRef } from "react";
 import { useFormInput } from "../../hooks";
 import { EndpointConnection } from "../../services";
@@ -44,6 +45,7 @@ export const SensorsDashboard: React.FC = (props) => {
 
   const start = async () => {
     const connection = new EndpointConnection(ip.value + "/hubs/commands/");
+   
     connection.onconnected((x) => setConnectionState(connection.state));
     connection.onclose((x) => setConnectionState(connection.state));
     connection.onreconnected((x) => setConnectionState(connection.state));
@@ -171,7 +173,7 @@ export const SensorsDashboard: React.FC = (props) => {
           id="top-line-chart"
           ref={sparkline}
         >
-          <h3 className="title"> Sensor</h3>
+          <h3 className="title"> Temperature</h3>
           <Sparkline
             chartId="sparkline_1"
             width={sparklineSize.width}

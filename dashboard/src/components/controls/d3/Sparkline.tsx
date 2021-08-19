@@ -142,9 +142,10 @@ export class Sparkline extends React.Component<Props | undefined, State> {
       height,
       data
     );
-
+    const format = d3.timeFormat("%H:%M:%S");
     const xAxis = d3
       .axisBottom(x)
+      .tickFormat((d)=> format(d as Date)) 
       .tickValues(data.map((d, i) => (i > 0 ? d.date : null)).splice(1))
       .ticks(5);
     const yAxis = d3.axisLeft(y).ticks(5);

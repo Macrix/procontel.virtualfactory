@@ -227,7 +227,13 @@ h3.title{
 .line {
   fill: none;
   stroke: #7dc7f4;
-  stroke-width: 5px;
+  stroke-width: 2px;
+}
+
+.line2 {
+  fill: none;
+  stroke: #f4b37d;
+  stroke-width: 2px;
 }
 .axis{
   fill:#bbc7d9;
