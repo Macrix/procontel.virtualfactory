@@ -1,5 +1,4 @@
 import { HubConnectionState } from "@microsoft/signalr";
-import * as d3 from "d3";
 import React, { useRef } from "react";
 import { useFormInput } from "../../hooks";
 import { EndpointConnection } from "../../services";
