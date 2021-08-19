@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/procontel.virtualfactory/static/css/main.d0d7d211.chunk.css",
-    "main.js": "/procontel.virtualfactory/static/js/main.f9273a56.chunk.js",
-    "main.js.map": "/procontel.virtualfactory/static/js/main.f9273a56.chunk.js.map",
+    "main.css": "/procontel.virtualfactory/static/css/main.d3cdcab6.chunk.css",
+    "main.js": "/procontel.virtualfactory/static/js/main.f58cad11.chunk.js",
+    "main.js.map": "/procontel.virtualfactory/static/js/main.f58cad11.chunk.js.map",
     "runtime-main.js": "/procontel.virtualfactory/static/js/runtime-main.df6a9f34.js",
     "runtime-main.js.map": "/procontel.virtualfactory/static/js/runtime-main.df6a9f34.js.map",
-    "static/js/2.accb729c.chunk.js": "/procontel.virtualfactory/static/js/2.accb729c.chunk.js",
-    "static/js/2.accb729c.chunk.js.map": "/procontel.virtualfactory/static/js/2.accb729c.chunk.js.map",
+    "static/js/2.6148d56b.chunk.js": "/procontel.virtualfactory/static/js/2.6148d56b.chunk.js",
+    "static/js/2.6148d56b.chunk.js.map": "/procontel.virtualfactory/static/js/2.6148d56b.chunk.js.map",
     "index.html": "/procontel.virtualfactory/index.html",
-    "static/css/main.d0d7d211.chunk.css.map": "/procontel.virtualfactory/static/css/main.d0d7d211.chunk.css.map",
-    "static/js/2.accb729c.chunk.js.LICENSE.txt": "/procontel.virtualfactory/static/js/2.accb729c.chunk.js.LICENSE.txt"
+    "static/css/main.d3cdcab6.chunk.css.map": "/procontel.virtualfactory/static/css/main.d3cdcab6.chunk.css.map",
+    "static/js/2.6148d56b.chunk.js.LICENSE.txt": "/procontel.virtualfactory/static/js/2.6148d56b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.df6a9f34.js",
-    "static/js/2.accb729c.chunk.js",
-    "static/css/main.d0d7d211.chunk.css",
-    "static/js/main.f9273a56.chunk.js"
+    "static/js/2.6148d56b.chunk.js",
+    "static/css/main.d3cdcab6.chunk.css",
+    "static/js/main.f58cad11.chunk.js"
   ]
 }
